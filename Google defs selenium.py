@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 # Selenium Set up
+# Note that path has to be customized depending on where your selenium webdriver is
 path = "D:\\Scripts\\.Dev\\Python\\.Projects\\Selenium\\chromedriver.exe"
 driver = webdriver.Chrome(path)
 
